@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <DeploymentBuildOnly>False</DeploymentBuildOnly>
+    <DeploymentAccountName>windows_mac</DeploymentAccountName>
+    <DeploymentHostedService>mvcsummit</DeploymentHostedService>
+    <DeploymentHostedServiceLabel>mvcsummit2011</DeploymentHostedServiceLabel>
+    <DeploymentSlot>Staging</DeploymentSlot>
+    <DeploymentIncludeIntellitrace>False</DeploymentIncludeIntellitrace>
+    <DeploymentIncludeProfiling>False</DeploymentIncludeProfiling>
+    <DeploymentEnableWebDeploy>False</DeploymentEnableWebDeploy>
+    <DeploymentStorageService>nodefiles</DeploymentStorageService>
+    <DeploymentStorageServiceLabel>nodefiles</DeploymentStorageServiceLabel>
+    <DeploymentLabel>LocalCacheSample</DeploymentLabel>
+    <PublishSolutionConfiguration>Release</PublishSolutionConfiguration>
+    <PublishProfile>Cloud</PublishProfile>
+    <TimestampLabel>True</TimestampLabel>
+  </PropertyGroup>
+</Project>

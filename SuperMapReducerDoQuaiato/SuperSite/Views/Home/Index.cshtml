@@ -1,0 +1,40 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        <h1>
+            Super contador de letras nas frases</h1>
+        @using (Html.BeginForm("novafrase", "home"))
+        {
+            @Html.Label("frase", "Frase")
+            @Html.TextBox("frase")
+            <br />
+            @Html.Label("letra", "Letra")
+            @Html.TextBox("letra")
+            <br />
+            
+            <input type="submit" value="Calcular" />
+        }
+        @if (@ViewBag.Identificador != null)
+        {
+            <h3>
+                Seu identificador é: @ViewBag.Identificador</h3>
+        }
+        <br/><br/><br/><br/>
+        @using (Html.BeginForm("consultar", "home", FormMethod.Get))
+        {
+            @Html.Label("identificador", "Identificador")
+            @Html.TextBox("identificador")
+            <br />
+            
+            <input type="submit" value="Consultar" />
+        }
+    </div>
+</body>
+</html>

@@ -1,0 +1,34 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        <h1>Super site de vendas do Quaiato</h1>
+        @if (ViewBag.Venda != null)
+        {
+            <h2>@ViewBag.Venda</h2>
+        }
+
+        @using(Html.BeginForm("vender","vendas"))
+        {
+            @Html.Label("produto", "produto")
+            @Html.TextBox("produto")
+            <br />
+            @Html.Label("quantidade", "quantidade")
+            @Html.TextBox("quantidade")
+            <br />
+            @Html.Label("valor", "R$ valor")
+            @Html.TextBox("valor")
+            <br />
+            <input type="submit" value="Comprar!" />
+        }
+    </div>
+</body>
+</html>

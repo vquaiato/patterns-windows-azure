@@ -1,0 +1,7 @@
+SuperSiteDeVendasDoQuaiato - mostra o pattern de queue/job polling com worker roles
+
+SuperMapReducerDoQuaiato - mostra uma implementação de map/reduce com worker, queues e tables no Windows Azure
+
+SessionStateWithAppFabricCaching - mostra como usar sessionstate distribuído no Windows Azure com AppFabric Caching
+
+LocalCacheSAmple - mostra o uso do Azure AppFabric caching para armazenar dados
